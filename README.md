@@ -1,7 +1,7 @@
 # ECE 603 Final Project Codebase
 ## Medical Image Enhancement Using CLAHE and Pelican Optimization
 
-This project codebase documents the code for reproducing the results from the paper [A novel medical image enhancement algorithm based on CLAHE and pelican optimization](https://link.springer.com/article/10.1007/s11042-024-19070-6). We reproduce the results from this paper as well as extending upon it creating a meaningful extension. This paper uses contrast limited adaptive histogram equalization (CLAHE) and pelican optimization algorithm (POA) to enhance medical images. The extended works conducted by Umar and Purva focus on RGB images of histology slides and use a Resnet50 feature encoder for image enhancment. Here are some relevant links: [presentation link](https://youtu.be/vaNkmamVCnA) and [final report link]().
+This project codebase documents the code for reproducing the results from the paper [A novel medical image enhancement algorithm based on CLAHE and pelican optimization](https://link.springer.com/article/10.1007/s11042-024-19070-6). We reproduce the results from this paper as well as extending upon it creating a meaningful extension. This paper uses contrast limited adaptive histogram equalization (CLAHE) and pelican optimization algorithm (POA) to enhance medical images. The extended works conducted by Umar and Purva focus on RGB images of histology slides and use a Resnet50 feature encoder for image enhancment. Here are some relevant links: [presentation link](https://youtu.be/vaNkmamVCnA) and [final report link](https://github.com/gitUmaru/ece-603-final-project-repo/blob/main/ECE_603_Final_Project_Report.pdf).
 
 ## Table of Contents
 - [Overview](#abstract)
@@ -35,7 +35,9 @@ and dataset diversity
 ```
 ece-603-final-project-repo/
 │
-├── ECE_603_Final_Project_Code.ipynb.ipynb          # Main Jupyter Notebook
+├── ECE_603_Final_Project_Code.ipynb                # Main Jupyter Notebook
+├── ECE_603_Final_Project_Report.ipynb              # Project final report document
+├── ECE_603_Final_Project_Slides.ipynb              # Project presentation slides
 ├── README.md                                       # Project documentation
 ├── requirements.txt                                # Python dependencies
 └── histology_images/                               # Directory for storing histology images
